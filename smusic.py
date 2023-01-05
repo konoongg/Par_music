@@ -36,8 +36,8 @@ driver = webdriver.Chrome(executable_path=r'C:\Users\User\Desktop\payton_prodgec
 driver.maximize_window()
 driver.get(URL)
 
-driver.find_element_by_id('quick_email').send_keys('89133859940')
-driver.find_element_by_id('quick_pass').send_keys('konoong')
+driver.find_element_by_id('quick_email').send_keys('LOGIN')
+driver.find_element_by_id('quick_pass').send_keys('PASSWORD')
 driver.find_element_by_id('quick_login_button').click()
 
 time.sleep(5)
